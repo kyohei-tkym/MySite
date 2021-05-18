@@ -28,12 +28,181 @@ nav{
 
 .logo{
     height: 70px;
-    
 }
 
 .header_list{
     display: inline-block;
     margin: 0 30px;
+}
+
+.main-visual{
+    background-image: url(img/mv.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+
+.main-visual-title{
+    text-align: center;
+    padding-top: 200px;
+    color: #fafafa;
+}
+
+.main-visual-name{
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.main-visual-text{
+    font-size: 20px;
+}
+
+.main-portfolio{
+    width: 100%;
+    background-color: #eceff1;
+}
+
+.portfolio-contents{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.portfolio-title{
+    text-align: center;
+    color: #000000;
+    padding-top: 90px;
+}
+
+.portfolio-name{
+    font-size: 32px;
+    position: relative;
+}
+
+.portfolio-name::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%; /* 位置調整 */
+	transform: translate(-50%); /* 位置調整 */
+	bottom: -8px; /* 下線の上下位置調整 */
+	width: 70px; /* 下線の幅 */
+	height: 3px; /* 下線の太さ */
+	background-color: #ec715f; /* 下線の色 */
+}
+
+.portfolio-text{
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.portfolio-body{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+
+.portfolio-box{
+    height: 250px;
+    width: 300px;
+}
+
+.portfolio-box:nth-child(1) {
+    background-image: url(img/sketch.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.portfolio-box:nth-child(2) {
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px 10px 10px;
+}
+
+.portfolio-box:nth-child(3) {
+    background-image: url(img/write.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.portfolio-box:nth-child(4) {
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-box:nth-child(5) {
+    background-image: url(img/talk.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+
+.portfolio-box:nth-child(6) {
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.feature{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.feature-title{
+    padding-top: 90px;
+    color: #000000;
+    text-align: center;
+}
+
+.feature-name{
+    font-size: 32px;
+    position: relative;
+}
+
+.feature-name::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%; /* 位置調整 */
+	transform: translate(-50%); /* 位置調整 */
+	bottom: -8px; /* 下線の上下位置調整 */
+	width: 70px; /* 下線の幅 */
+	height: 3px; /* 下線の太さ */
+	background-color: #ec715f; /* 下線の色 */
+}
+
+.feature-text{
+    font-size: 16px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.feature-body{
+    padding-bottom: 90px;
+    display: flex;
+}
+
+.strength1, .strength2, .strength3{
+    width: 320px;
+    text-align: center;
+    color: #000000;
+}
+
+.strength2{
+    margin: 0 10px;
+}
+
+.strength-title{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.strength-icon{
+    font-size: 60px;
 }
 
 footer{
