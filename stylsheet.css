@@ -26,6 +26,11 @@ nav{
     margin-left: auto;
 }
 
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
 .logo{
     height: 70px;
 }
@@ -35,7 +40,7 @@ nav{
     margin: 0 30px;
 }
 
-.main-visual{
+#main-visual{
     background-image: url(img/mv.png);
     background-size: cover;
     background-position: center;
@@ -58,7 +63,7 @@ nav{
     font-size: 20px;
 }
 
-.main-portfolio{
+#main-portfolio{
     width: 100%;
     background-color: #eceff1;
 }
@@ -147,7 +152,7 @@ nav{
     background-position: center;
 }
 
-.feature{
+#feature{
     width: 980px;
     margin: 0 auto;
 }
@@ -203,6 +208,158 @@ nav{
 
 .strength-icon{
     font-size: 60px;
+}
+
+#profile{
+    background-color: #eceff1;
+}
+
+.profile-contents{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.profile-title{
+    text-align: center;
+    padding-top: 90px;
+    color: #000000;
+}
+
+.profile-name{
+    font-size: 32px;
+    position: relative;
+}
+
+.profile-name::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%; /* 位置調整 */
+	transform: translate(-50%); /* 位置調整 */
+	bottom: -8px; /* 下線の上下位置調整 */
+	width: 70px; /* 下線の幅 */
+	height: 3px; /* 下線の太さ */
+	background-color: #ec715f; /* 下線の色 */
+}
+
+.profile-text{
+    font-size: 16px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.profile-body{
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.profile-icon{
+    width: 512px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image{
+    background-image: url(img/my-icon.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.introduction{
+    width: 512px;
+    color: #000000;
+}
+
+.myname{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.myname-text{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.myskills{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.myskills-text{
+    font-size: 16px;
+}
+
+#contact{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-title{
+    padding-top: 90px;
+    text-align: center;
+    color: #000000;
+}
+
+.contact-name{
+    font-size: 32px;
+    position: relative;
+}
+
+.contact-name::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%; /* 位置調整 */
+	transform: translate(-50%); /* 位置調整 */
+	bottom: -8px; /* 下線の上下位置調整 */
+	width: 70px; /* 下線の幅 */
+	height: 3px; /* 下線の太さ */
+	background-color: #ec715f; /* 下線の色 */
+}
+
+.contact-text{
+    font-size: 16px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.contact-body{
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.address{
+    
+    margin: 0 auto;
+}
+
+.sns{
+    margin: 0 auto;
+}
+
+.address-main{
+    font-size: 20px;
+}
+
+.address-mail{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.address-number{
+    margin-top: 5px;
+}
+
+
+.contact-icon{
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+.fa-twitter{
+    margin: 0 20px;
 }
 
 footer{
