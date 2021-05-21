@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f827922457.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylsheet.css" />
     <title>>MySite</title>
@@ -11,7 +12,25 @@
     <header>
         <div class="header_body">
             <a href="#main-visual"><img class="logo" src="img/logo.png"/></a>
-            <nav>
+
+            <div id="hamburger">
+                <div class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <nav class="sm">
+                <ul>
+                    <li class="header_list"><a href="#main-portfolio">Portfolio</a></li>
+                    <li class="header_list"><a href="#feature">Feature</a></li>
+                    <li class="header_list"><a href="#profile">Profile</a></li>
+                    <li class="header_list"><a href="#contact">Contact</a></li>
+               </ul>
+             </nav>
+
+            <nav class="pc">
                 <ul>
                     <li class="header_list"><a href="#main-portfolio">Portfolio</a></li>
                     <li class="header_list"><a href="#feature">Feature</a></li>

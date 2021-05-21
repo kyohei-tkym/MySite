@@ -26,6 +26,7 @@ nav{
     margin-left: auto;
 }
 
+
 a{
     text-decoration: none;
     color: #fafafa;
@@ -38,6 +39,10 @@ a{
 .header_list{
     display: inline-block;
     margin: 0 30px;
+}
+
+.sm {
+    display: none;
 }
 
 #main-visual{
@@ -99,6 +104,7 @@ a{
 .portfolio-text{
     padding-top: 38px;
     padding-bottom: 30px;
+    font-size: 16px;
 }
 
 .portfolio-body{
@@ -372,3 +378,194 @@ footer{
     line-height: 60px;
 }
 
+
+
+@media screen and (max-width:768px){
+    header{
+        height: 50px;
+        width: 100%;
+    }
+
+    .header_body{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo{
+        height: 50px;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .icon{
+        
+    }
+
+    #hamburger {
+        height: 40px;
+        width: 40px;
+        margin-right: 5%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #FAFAFA;
+        margin-left: auto;
+    }
+
+    .icon span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 5px auto;
+        background-color: white;
+    }
+
+    .icon span:nth-of-type(1) {
+        margin-top: 10px;
+    }
+
+    .sm {
+        top: 60px;
+        left: 0px;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        background-color: rgba(34, 49, 52, 0.9);
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    a {
+        text-align: center;
+        border-top: solid 0.5px rgba(255, 255, 255, 0.6);
+    }
+
+    #main-visual{
+        background-image: url(img/code.png);
+        width: 100%;
+    }
+
+    .main-visual-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-visual-name{
+        font-size: 40px;
+    }
+
+    .main-visual-text{
+        font-size: 18px;
+    }
+
+    #main-portfolio{
+        width: 100%;
+    }
+
+    .portfolio-contents{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .portfolio-body{
+        display: block;
+        padding-bottom: 90px;
+    }
+
+    .portfolio-box{
+        margin: 0 auto;
+    }
+    .portfolio-box:nth-child(1),
+    .portfolio-box:nth-child(3),
+    .portfolio-box:nth-child(5){
+
+        display: none;
+    }
+
+    .portfolio-box:nth-child(2){
+        margin: 0 auto;
+    }
+
+    .portfolio-box:nth-child(4){
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #feature{
+        width: 100%;
+    }
+
+    .feature-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .feature-body{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .strength1, .strength2, .strength3{
+        margin: 0 auto;
+    }
+
+    .strength1, .strength2{
+        margin-bottom: 10px;
+    }
+
+    #profile{
+        width: 100%;
+    }
+
+    .profile-contents{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .profile-body{
+        display: block;
+    }
+
+    .profile-icon{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .introduction{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .myname{
+        margin-top: 20px;
+    }
+
+    .myskills{
+        margin-bottom: 20px;
+    }
+
+    #contact{
+        width: 100%;
+    }
+
+    .contact-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-body{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .address-number{
+        margin-bottom: 20px;
+    }
+}
